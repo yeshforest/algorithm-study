@@ -9,6 +9,7 @@ oxquiz <br>
 
 ### bf
 [19532](https://www.acmicpc.net/problem/19532) 수학은 비대면강의입니다<br>
+[7568](https://www.acmicpc.net/problem/7568) 덩치 <br>
 
 ### 구현
 [14467](https://www.acmicpc.net/problem/14467) 소가 길을 건너간 이유1<br>
