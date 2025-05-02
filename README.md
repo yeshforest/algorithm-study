@@ -15,3 +15,4 @@ oxquiz <br>
 [14467](https://www.acmicpc.net/problem/14467) 소가 길을 건너간 이유1<br>
 [21918](https://www.acmicpc.net/problem/21918) 전구<br>
 [20546](https://www.acmicpc.net/problem/20546) 기적의 매매법<br>
+[10709](https://www.acmicpc.net/problem/10709) 기상캐스터<br>
