@@ -7,7 +7,7 @@ answer = 0
 
 def bfs(graph,start,visited,target):
   queue = deque()# 시작노드 큐에 넣기
-  queue.append((start,0))
+  queue.append([start,0])
   visited[start] = True# 첫번째 노드 방문처리
   cnt=0
   # 방문하지 않은 해당노드와 연결된 모든노드 방문처리
@@ -20,7 +20,7 @@ def bfs(graph,start,visited,target):
     for value in graph[current]: # 뽑은 원소와 연결된 원소들을 하나씩 큐에 삽입
       if not visited[value]:
         visited[value] = True # 방문처리
-        queue.append((value,level +1))
+        queue.append([value,level +1])
   return -1
         
 
