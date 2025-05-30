@@ -5,7 +5,7 @@ input = sys.stdin.readline
 dx = [0,0,-1,1]
 dy = [-1,1,0,0]
 
-# 모든 방향으로 이동하며, 1인곳으로 이동. 그리고 거리가 짧은경우 cnt값 대체
+# 0,0으로부터 모든방향으로 검사
 def bfs(graph,start,N,M):
   x,y = start
   queue = deque([(x,y)]) # 첫번째 노드 큐에 넣기
