@@ -1,24 +1,9 @@
-# 14시 30분
-# 20분 걸림
-nh,nm  = map(int,input().split())
-term = int(input())
+a, b = map(int, input().split())
+c = int(input())
 
-# 시간 덧셈을 위한 준비
-hour = term // 60
-min = term % 60
+total = a*60 + b + c # 전부 분으로 바꿔 계산
 
-# 시간 덧셈
-h = nh + hour
-m = nm + min
+h = (total // 60) % 24   # 다시 24시간으로 변환
+m = total % 60
 
-
-# 덧셈 후 시간 후처리
-if m >= 60:
-  h =(m // 60)+h
-  m = m%60
-
-
-if h >= 24:
-  h = h % 24
-
-print(h,m)
+print(h, m)
